@@ -8,8 +8,11 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 public class CardTrick {
     public static void main(String[] args)
     {
-       CardTrick Card = new CardTrick();
-       System.out.println(Card);
+       Card Card = new Card();
+       Card.setValue(10);
+       Card.setSuit("Hearts");
+       System.out.println(Card.getValue() + " of " + Card.getSuit());
+       
     }
     
 }
