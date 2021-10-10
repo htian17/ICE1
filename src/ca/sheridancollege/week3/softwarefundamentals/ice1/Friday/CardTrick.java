@@ -17,6 +17,7 @@ public class CardTrick {
        Card2.setValue(11);
        Card2.setSuit("Spades");
        System.out.println(Card2);
+       //2nd ojb
     }
     
 }
