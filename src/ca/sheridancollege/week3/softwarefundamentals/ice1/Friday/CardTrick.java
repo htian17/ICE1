@@ -13,6 +13,10 @@ public class CardTrick {
        Card.setSuit("Hearts");
        System.out.println(Card.getValue() + " of " + Card.getSuit());
        
+       Card Card2 = new Card();
+       Card2.setValue(11);
+       Card2.setSuit("Spades");
+       System.out.println(Card2);
     }
     
 }
